@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>MARANG BABU PRODUCTION</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>MARANG BABU PRODUCTION</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+      
+        <li><a href="#projects" class="nav-link">Videos</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+      </button>
+    </nav>
+    
+    
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+      height="24.5rem;"
+      width="15rem;"
+        src="assets/images/Me-removebg-preview.png"
+        alt="jane-doe"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          Hello, Santali enthusiasts! My name is <b>Madha Marang</b>, and I am a passionate YouTuber dedicated to sharing Santali culture, music, and traditions through my videos.
+
+        </p>
+      </div>
+    </section>
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>Hello, Santali enthusiasts! My name is <b>Madha Marang</b>, and I am a passionate YouTuber dedicated to sharing Santali culture, music, and traditions through my videos.</p>
+  
+      <p>As a native Santali speaker and proud member of the Santali community, I believe in the power of digital media to connect people, preserve our heritage, and promote a sense of belonging among Santali individuals worldwide.</p>
+      
+      <p>On my YouTube channel, you'll find a diverse range of content that celebrates Santali art forms, folklore, festivals, and much more. I strive to create engaging and informative videos that entertain, educate, and foster a deeper appreciation for our rich Santali heritage.</p>
+      
+      <p>Whether you're interested in Santali music, dance, traditional crafts, or simply want to explore the vibrant Santali culture, my channel is the perfect destination for you. Join me on this incredible journey as we delve into the captivating world of Santali traditions and celebrations.</p>
+      
+      <p>Don't forget to subscribe to my channel and hit the notification bell to stay updated with the latest Santali videos. Let's come together as a community, share our stories, and keep our Santali culture alive!</p>
+    </section>
+
+    <!-- Skills section -->
+   
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Videos</h2>
+      <section id="videos">
+        <h2>My Videos</h2>
+        <div class="video">
+
+          <iframe width="500" height="315" src="https://www.youtube.com/embed/VD8fZSJxB5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="500" height="315" src="https://www.youtube.com/embed/F5EcXqpBwGY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="500" height="315" src="https://www.youtube.com/embed/09Fptx352Xw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </section>
+      
+      
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xleyrzwe" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      
+      <a href="https://youtube.com/@MARANGBABUPRODUCTION" target="_blank"
+        ><img
+          src="assets/icons/icons8-youtube.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt=""
+    /></i>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2023</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="https://www.instagram.com/devloper08/" target="_blank"
+          >Gopinath Majhi</a
+        >
+      </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
